@@ -56,12 +56,12 @@ Developed and maintained by:
 
 ### Installation
 
-`npm install @spree/storefront-api-v2-sdk --save`
+`npm install blog-api-sdk`
 
 ### Creating a Spree client
 
 ```js
-import { makeClient } from '@spree/storefront-api-v2-sdk'
+import { makeClient } from 'blog-api-sdk'
 // When using the SDK in a <script> tag or as part of a Webpack bundle
 // targeted for the browser, instead use:
 // import { makeClient } from '@spree/storefront-api-v2-sdk/dist/client'
